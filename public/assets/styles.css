@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body, input, button {
+    background-image: url('/assets/scott-webb-244457.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+    color:#EC407A;
+    width: 100%;
+    height: 100%;
+}
+
+#todo-table{
+    position: relative;
+    width: 100%;
+    /* background: #F06292; */
+    background-color: rgba(240, 98, 146, 0.2);
+    margin: 0 auto;
+    padding: 50px 70px 50px 70px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#F8BBD0;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #FF80AB;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: white;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background:rgba(240, 98, 146, 0.5)
+}
+
+h1{
+    /* background: url(/assets/logo.png) no-repeat center; */
+    margin-bottom: 0;
+
+}
