@@ -3,11 +3,12 @@
 ### Description
 * Followed net-ninja MongoDB tutorial
 
-###Technologies Used
+### Technologies Used
 * Node.js
-*MongoDb
+* MongoDb
 
 ### URL
+* https://my-first-to-do-app.appspot.com/todo
 
 
 
