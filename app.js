@@ -10,5 +10,5 @@ app.use('/assets', express.static('./public/assets'));//static files ('./public'
 
 todoController(app);//fire controllers
 
-app.listen(3000);//listen to port
+app.listen(process.env.PORT || 5000);
 console.log('You are listening to port 3000');
