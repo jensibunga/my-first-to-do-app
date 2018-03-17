@@ -15,7 +15,7 @@ After completing 3 months of Bootcamp Period in [Restart Network](https://restar
 * Deploying to google cloud 
 
 ### URL
-* https://my-first-to-do-app.appspot.com/todo
+* https://first-to-do-app.herokuapp.com/todo
 
 
 
